@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panchenko Lux Hair - Відновлення волосся</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Panchenko.Lux.Hair</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#services">Послуги</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Експерт з відновлення волосся</h1>
+            <p>Професійний догляд та індивідуальний підхід до здоров'я вашого волосся</p>
+            <a href="#contact" class="cta-button">Записатись на безкоштовну консультацію</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Послуги</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-heart"></i>
+                <h3>Відновлення волосся</h3>
+                <p>Професійні процедури для повного відновлення здоров'я вашого волосся</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-search"></i>
+                <h3>Підбір догляду</h3>
+                <p>Індивідуальний підбір професійних засобів для домашнього догляду</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-comments"></i>
+                <h3>Безкоштовна консультація</h3>
+                <p>Детальна консультація з аналізом стану вашого волосся</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-user-check"></i>
+                <h3>Індивідуальний підхід</h3>
+                <p>Розробка персональної програми відновлення волосся</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>Про мене</h2>
+            <p>Я спеціалізуюся на відновленні здоров'я вашого волосся, використовуючи найсучасніші методики та професійні засоби. Я допоможу повернути вашому волоссю природну красу та сяйво.</p>
+        </div>
+    </section>
+
+   
+
+    <section id="gallery" class="gallery">
+        <h2>Галерея моїх робіт</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/IMG_1843.PNG" alt="Результат відновлення волосся" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="images/IMG_1844.PNG" alt="Результат відновлення волосся" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="images/IMG_1845.PNG" alt="Результат відновлення волосся" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="images/IMG_1846.PNG" alt="Результат відновлення волосся" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="images/IMG_1862.PNG" alt="Результат відновлення волосся" class="gallery-image">
+            </div>
+            <div class="gallery-item">
+                <img src="images/IMG_1861.JPG" alt="Результат відновлення волосся" class="gallery-image">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Контакти</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item owner-info">
+                    <i class="fas fa-user"></i>
+                    <p>Катерина Панченко</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p><a href="tel:+380972094291">097 209 42 91</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>м. Черкаси, ТРЦ Хрещатик Сіті</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Пн-Сб: 9:00 - 20:00</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <p><a href="https://www.instagram.com/panchenko.lux.hair?igsh=MXZ1djd3cnZub2xsOA==" target="_blank">@panchenko.lux.hair</a></p>
+                </div>
+            </div>
+            <form class="contact-form" id = "contact-form" method = "post" action="https://formspree.io/f/xkgjeabn">
+
+                <input type="text" id = "NameText" name = "text" placeholder="Ваше ім'я" required>
+
+                <input type="tel" id = "TelText" name = "tel" placeholder="Ваш телефон" required>
+
+                <textarea placeholder="Повідомлення" id = "MessageText" name = "message" required></textarea>
+
+                <button type="submit" class="submit-button">Надіслати</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Panchenko.Lux.Hair</h3>
+                <p class="owner-name">Катерина Панченко</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.instagram.com/panchenko.lux.hair?igsh=MXZ1djd3cnZub2xsOA==" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 Panchenko.Lux.Hair. Всі права захищені.</p>
+        </div>
+    </footer>
+ <script src = "script.js"></script>
+</body>
+</html>
